@@ -10,7 +10,7 @@ use Workerman\Worker;
 
 require_once __DIR__.'/Autoloader.php';
 
-$wxWorker = new  Worker('ws://0.0.0.0:8383');
+$wxWorker = new  Worker('websocket://0.0.0.0:8383');
 
 $wxWorker->count =1;
 
